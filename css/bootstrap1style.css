@@ -1,0 +1,152 @@
+body {
+    text-align: center;
+}
+
+.juego {
+  background-image: url(../img/bg.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  font-size: 12px
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.logo {
+   margin: 0;
+   padding-top: 10%;
+   padding-right: 0;
+   min-width: 200px;
+}
+
+.nav {
+  float: right;
+  padding: 4% 0;
+}
+
+.nav-link {
+  color: grey;
+  font-size: 1rem;
+}
+
+.nav-link:hover {
+  color: hsl(211, 80%, 47%);
+  font-size: 1rem;
+}
+
+.titulo {
+  padding: 6% 27% 4%;
+  text-transform: uppercase;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 3px;
+  font-size: 2.3rem;
+}
+
+.titulo h1 {
+  color: white;
+  font-family: 'Open sans', sans-serif;
+  font-weight: 300;
+  line-height: 140%;
+}
+
+button.blue {
+  background-color: hsl(211, 80%, 47%);
+  margin: 0 5px;
+  font-size: 1rem;
+  border-style: none;
+}
+
+button.green {
+  background-color: hsl(149, 80%, 47%);
+  margin: 0 5px;
+  font-size: 1rem;
+  border-style: none;
+}
+
+button.blue:hover {
+  background-color: hsl(211, 80%, 20%);
+}
+
+button.green:hover {
+  background-color: hsl(149, 80%, 20%);
+}
+
+.nota-pie {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  padding: 1% 30% 60px;
+  margin: auto;
+}
+
+.bootcamp {
+  margin-top: 40px;
+}
+
+.bootcamp h3 {
+  color: hsl(216, 2%, 30%);
+  font-size: 1rem;
+  font-family: 'Open sans', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 1% 20% 0;
+}
+
+.bootcamp p {
+  color: hsl(216, 2%, 30%);
+  font-size: 0.9rem;
+  font-family: 'Open sans', sans-serif;
+  font-weight: 200;
+  text-align: center;
+  padding: 1% 20%;
+}
+
+.gente img {
+  padding: 0;
+  width: 30%;
+}
+
+.inscribete {
+  background-color: hsl(149, 1%, 95%);
+}
+
+@media screen and (max-width: 570px) {
+
+.logo {
+ text-align: center;
+ padding: 20px 30px 0;
+}
+
+.nav {
+ float: none;
+ text-align: center;
+ display: flex;
+ justify-content: center;
+ padding: 4% 0;
+}
+
+.titulo {
+  padding: 3% 8% 8%;
+}
+
+.titulo h1{
+  font-size: 0.8em;
+}
+
+.nota-pie {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  padding: 2% 15% 10%;
+  margin: auto;
+}
+
+.gente img {
+  padding: 0;
+  width: 50%;
+}
+
+}
